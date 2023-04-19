@@ -11,11 +11,9 @@ import { format } from "prettier";
 import * as babelParser from "prettier/parser-babel";
 import * as htmlParser from "prettier/parser-html";
 import * as markdownParser from "prettier/parser-markdown";
+import * as postcssParser from "prettier/parser-postcss";
 import * as typescriptParser from "prettier/parser-typescript";
 import * as yamlParser from "prettier/parser-yaml";
-
-// import * as graphqlParser from "prettier/parser-graphql";
-// import * as postcssParser from "prettier/parser-postcss";
 
 interface PrettierPluginSettings {
 	configFilePath: string;
@@ -58,8 +56,7 @@ async function formatDocument(
 				htmlParser,
 				typescriptParser,
 				yamlParser,
-				// graphqlParser,
-				// postcssParser,
+				postcssParser,
 			],
 		});
 
