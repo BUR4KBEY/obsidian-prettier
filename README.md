@@ -1,6 +1,6 @@
 # ✨ Obsidian Prettier
 
-This is an plugin developed for [Obsidian](https://obsidian.md) to format markdown files using the popular code formatter [Prettier](https://prettier.io/).
+This is a plugin developed for [Obsidian](https://obsidian.md) to format markdown files using the popular code formatter [Prettier](https://prettier.io/).
 
 ## 🛠️ Building the project
 
