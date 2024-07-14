@@ -59,3 +59,9 @@ You can write your Prettier configuration inside the JSON object.
 To use this configuration file, specify the path by opening `Prettier Formatter` in the **Community Plugins** section and writing the path. (`config/prettierrc`)
 
 Once you have set up the path, you can press `CTRL + P` to open the command palette and type `format document`, then run it to format the document according to your configuration.
+
+## ☕ Support
+
+If you find this project useful and would like to support [me](https://github.com/BUR4KBEY), you can do so by visiting [my website](https://burakbey.dev).
+
+<a href="https://burakbey.dev" target="_blank"><img src="https://burakbey.dev/github_support_snippet.png" style="height: 56px !important;width: 200px !important;" alt="Buy me a coffee"></img></a>
